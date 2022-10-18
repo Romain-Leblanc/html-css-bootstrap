@@ -32,6 +32,37 @@ body {
 .p-8 {
     padding: 8px;
 }
+.titre-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-word;
+    font-style: italic;
+}
+.titre-couleur-orange {
+    color: #d18700;
+}
+.div-actualites {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 4%;
+}
+.fs-13 {
+    font-size: 13px;
+}
+@media screen and (min-width: 992px) {
+    .card {
+        flex-basis: 47%;
+        margin: 0 0 5% 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .card {
+        flex-basis: 100%;
+        margin: 0 0 10% 0;
+    }
+}
 footer {
     height: 79px;
     display: flex;
