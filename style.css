@@ -71,6 +71,10 @@ body {
     .card-text {
         font-size: 15px;
     }
+    .div-evenements img {
+        width: 350px;
+        height: 450px;
+    }
 }
 @media screen and (max-width: 992px) {
     .navbar-nav {

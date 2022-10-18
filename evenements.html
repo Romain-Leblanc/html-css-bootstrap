@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>B.B.C - Évènements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page des événements de l'association Beaufort Basket Club (B.B.C).">
     <link rel="stylesheet" href="bootstrap-5.2.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-6.2.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -19,20 +21,22 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarTop">
             <div class="navbar-nav">
-                <a class="nav-item nav-link text-light" href="accueil.html">Accueil</a>
-                <a class="nav-item nav-link nav-link-active" href="evenements.html">Évènements</a>
+                <a class="nav-item nav-link text-light" href="accueil.html" title="Lien vers la page d'accueil">Accueil</a>
+                <a class="nav-item nav-link nav-link-active" href="evenements.html" title="Lien vers la page des évènements">Évènements</a>
             </div>
         </div>
     </nav>
     <div class="container flex-1">
-        <div class="titre-page py-4 titre-couleur-orange"><h5>Évènements nationaux</h5></div>
+        <div class="titre-page py-4 titre-couleur-orange">
+            <h5>Évènements nationaux</h5>
+        </div>
         <div class="contenu">
             <div class="div-evenements">
-                <div class="card flex-row">
-                    <img src="img/evenements/finale_coupedefrance.PNG" alt="finale_coupedefrance" />
+                <div itemscope itemtype="http://schema.org/Event" class="card flex-row">
+                    <img src="img/evenements/finale_coupedefrance.PNG" alt="Affiche de la finale de la Coupe de France 2022-2023" />
                     <div class="card-body">
-                        <h6 class="card-title bg-secondary text-light border border-primary">Finale Coupe de France 2022-2023</h6>
-                        <p class="card-text fs-13" id="contenu-evenement">Le samedi et dimanche 22 & 23 avril 2023 auront lieu les phases finales de la Coupe de France 2022-2023 de basket masculin à l'AccorHotel Arena de Paris.</p>
+                        <h6 itemprop="name" class="card-title bg-secondary text-light p-2">Finale Coupe de France 2022-2023</h6>
+                        <p class="card-text fs-13" id="contenu-evenement"><span itemprop="description">Le samedi et dimanche 22 & 23 avril 2023 auront lieu les phases finales de la Coupe de France 2022-2023 de basket masculin à l'AccorHotel Arena de Paris.</span></p>
                     </div>
                 </div>
             </div>
@@ -41,8 +45,8 @@
     <footer class="bg-secondary text-light justify-content-between align-items-center p-content">
         <p class="mb-0">© 2022 - Association B.B.C</p>
         <div class="d-flex">
-            <a class="nav-item nav-link p-8 text-light" href="accueil.html">Accueil</a>
-            <a class="nav-item nav-link p-8 nav-link-active" href="evenements.html">Évènements</a>
+            <a class="nav-item nav-link p-8 text-light" href="accueil.html" title="Lien vers la page d'accueil">Accueil</a>
+            <a class="nav-item nav-link p-8 nav-link-active" href="evenements.html" title="Lien vers la page des évènements">Évènements</a>
          </div>
     </footer>
 </body>
