@@ -1,3 +1,12 @@
+/* Définition de html, body et flex-1 permettent de placer le footer en bas de page */
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
 #logo {
     width: 40px;
     height: 40px;
@@ -14,6 +23,18 @@
 .nav-link-active {
     color: #e99700;
 }
-.nav-link-active:hover {
-    color: blue;
+.nav-link-active:hover, a.text-light:hover {
+    color: blue !important;
+}
+.flex-1 {
+    flex: 1;
+}
+.p-8 {
+    padding: 8px;
+}
+footer {
+    height: 79px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
