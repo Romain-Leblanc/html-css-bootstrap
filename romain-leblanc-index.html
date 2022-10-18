@@ -7,13 +7,13 @@
     <meta name="description" content="Page d'accueil du site présentant l'association Beaufort Basket Club (B.B.C).">
     <link rel="stylesheet" href="bootstrap-5.2.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome-6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="romain-leblanc-style.css">
     <script src="bootstrap-5.2.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-secondary p-content" >
         <div class="d-flex flex-column align-items-center text-light">
-            <img src="img/logo.PNG" alt="logo" id="logo" class="rounded float-left"/>
+            <img src="img/logo.PNG" alt="logo" id="logo" class="rounded float-left" title="Logo de l'association" />
             <p class="mb-0">Beaufort Basket Club</p>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,8 +21,8 @@
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarTop">
             <div class="navbar-nav">
-                <a class="nav-item nav-link nav-link-active" href="accueil.html">Accueil</a>
-                <a class="nav-item nav-link text-light" href="evenements.html">Évènements</a>
+                <a class="nav-item nav-link nav-link-active" href="romain-leblanc-evenements.html">Accueil</a>
+                <a class="nav-item nav-link text-light" href="romain-leblanc-evenements.html">Évènements</a>
             </div>
         </div>
     </nav>
@@ -39,16 +39,10 @@
                             <p class="card-text fs-13"><span itemprop="description">Le vendredi 9 septembre aura lieu l'assemblée générale de l'association Beaufort Basket Club.</span></p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div itemscope itemtype="http://schema.org/Event" class="card">
                         <div class="card-body">
-                            <h6 class="bg-secondary text-light p-2">Assemblée générale 2022</h6>
-                            <p class="card-text fs-13">Le vendredi 9 septembre aura lieu l'assemblée générale de l'association Beaufort Basket Club.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h6 class="bg-secondary text-light p-2">Assemblée générale 2022</h6>
-                            <p class="card-text fs-13">Le vendredi 9 septembre aura lieu l'assemblée générale de l'association Beaufort Basket Club.</p>
+                            <h6 itemprop="name" class="bg-secondary text-light p-2">Championnat 2022-2023</h6>
+                            <p class="card-text fs-13"><span itemprop="description">Toutes les équipes du club s'apprêtent à commencer un nouveau championnat et vous souhaites bon courage !</span></p>
                         </div>
                     </div>
                 </div>
@@ -58,8 +52,8 @@
     <footer class="bg-secondary text-light justify-content-between align-items-center p-content">
         <p class="mb-0">© 2022 - Association B.B.C</p>
         <div class="d-flex">
-            <a class="nav-item nav-link p-8 nav-link-active" href="accueil.html">Accueil</a>
-            <a class="nav-item nav-link p-8 text-light" href="evenements.html">Évènements</a>
+            <a class="nav-item nav-link p-8 nav-link-active" href="romain-leblanc-index.html">Accueil</a>
+            <a class="nav-item nav-link p-8 text-light" href="romain-leblanc-evenements.html">Évènements</a>
          </div>
     </footer>
 </body>
